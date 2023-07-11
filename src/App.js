@@ -21,7 +21,7 @@ function FunctionKomponenta() {
 
 class ClassKomponenta extends Component {
   render() {
-    return <div>{istina && <div>Obican tekst</div>}</div>;
+    return <>{istina && <div>Obican tekst</div>}</>;
   }
 }
 
